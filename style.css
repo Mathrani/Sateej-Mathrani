@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Lines&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+/* Default styles */
+body {
+    font-size: 16px;
+    background-color: #f4f4f4;
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+
+    .firstSection {
+        flex-direction: column;
+        align-items: center;
+        margin: 40px 0;
+    }
+
+    .firstSection > div {
+        width: 80%;
+    }
+
+    .leftSection {
+        font-size: 2rem;
+    }
+
+    .rightSection img {
+        width: 60%;
+    }
+
+    nav {
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+/* Non-responsive styles */
+nav {
+    font-family: 'Rubik Lines';
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    font-size: 15px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Salsa', cursive;
+}
+
+.left {
+  color: aliceblue;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+
+.leftSection {
+    margin: 30px 0;
+    font-size: 3rem;
+}
+
+.rightSection img {
+    width: 80%;
+    margin: 50px 0;
+    border-radius: 50%;
+}
+
+.purple {
+    color: rgb(238, 12, 12);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(233, 111, 111);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.active {
+    color: rgb(30, 156, 156);
+}
+
+.first iframe {
+    margin-left: 80px;
+    margin-top: 30px;
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.first p {
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
